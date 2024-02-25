@@ -1,12 +1,16 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import "./Login.css";
-import logoSistema from "../../img/logo-sistema.png";
-export default function Login() {
+import logoSistema from "../../img/sistema-logo-horizontal.png";
+
+export default function Login({ onLogin }) {
   const [validated, setValidated] = useState(false);
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleSubmit = (event) => {
     const form = event.currentTarget;
@@ -16,6 +20,18 @@ export default function Login() {
     }
 
     setValidated(true);
+  };
+
+  const handleLogin = () => {
+    if (username && password) {
+      // Guardar en sessionStorage
+      sessionStorage.setItem("username", username);
+      sessionStorage.setItem("password", password);
+      // Llamar a la función de inicio de sesión
+      onLogin();
+    } else {
+      alert("Por favor, complete ambos campos.");
+    }
   };
   return (
     <div className="body-background">
@@ -32,22 +48,31 @@ export default function Login() {
                 required
                 type="text"
                 className="input-login"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
               />
-              <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+              <Form.Control.Feedback type="invalid">
+                Ingrese su usuario.
+              </Form.Control.Feedback>
             </Form.Group>
           </Row>
           <Row className="mb-3">
             <Form.Group as={Col} md="12" controlId="validationCustom03">
               <Form.Label className="input-title">Ingrese su contraseña</Form.Label>
-              <Form.Control type="text" className="input-login" required />
+              <Form.Control type="text" className="input-login" value={password}
+        onChange={(e) => setPassword(e.target.value)} required />
               <Form.Control.Feedback type="invalid">
-                Please provide a valid city.
+                Ingrese su contraseña.
               </Form.Control.Feedback>
             </Form.Group>
           </Row>
-          <Button type="submit" className="login-button">Ingresar</Button>
+          <Button type="submit" className="login-button" onClick={handleLogin}>Ingresar</Button>
         </Form>
       </div>
     </div>
   );
 }
+
+Login.propTypes = {
+  onLogin: PropTypes.func.isRequired,
+};
