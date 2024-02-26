@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 import Modal from 'react-bootstrap/Modal';
+import BankModalNavigation from '../BankModalNavigation';
+import './BankModal.css';
 
 export default function BankModal({ show, handleClose }) {
     const [fullscreen, setFullscreen] = useState(true);
@@ -12,10 +14,12 @@ export default function BankModal({ show, handleClose }) {
 
   return (
     <Modal show={show} fullscreen={fullscreen} onHide={handleClose}>
-      <Modal.Header closeButton>
+      <Modal.Header closeButton className='modal-title'>
         <Modal.Title>Banco</Modal.Title>
       </Modal.Header>
-      <Modal.Body>Contenido</Modal.Body>
+      <Modal.Body>
+        <BankModalNavigation />
+      </Modal.Body>
     </Modal>
   );
 }
