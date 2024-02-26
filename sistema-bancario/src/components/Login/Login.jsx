@@ -59,7 +59,7 @@ export default function Login({ onLogin }) {
           <Row className="mb-3">
             <Form.Group as={Col} md="12" controlId="validationCustom03">
               <Form.Label className="input-title">Ingrese su contraseña</Form.Label>
-              <Form.Control type="text" className="input-login" value={password}
+              <Form.Control type="password" className="input-login" value={password}
         onChange={(e) => setPassword(e.target.value)} required />
               <Form.Control.Feedback type="invalid">
                 Ingrese su contraseña.

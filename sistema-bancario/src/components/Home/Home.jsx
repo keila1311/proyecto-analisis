@@ -5,9 +5,9 @@ import Button from "react-bootstrap/Button";
 import { useState } from "react";
 import BankModal from "../BankModal/BankModal";
 import "./Home.css";
-import logoBI from "../../img/bi-logo.png";
+import logoBI from "../../img/bi-logo-v2.png";
 import logoBam from "../../img/bam-logo-v2.png";
-import logoBanrural from "../../img/banrural-logo.jpeg";
+import logoBanrural from "../../img/banrural-logo-v2.png";
 import LastTransactions from "../LastTransactions";
 
 export default function Home() {
