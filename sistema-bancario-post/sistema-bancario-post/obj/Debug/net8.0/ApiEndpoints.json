@@ -26,6 +26,54 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "sistema_bancario_post.Controllers.UserLoginController",
+    "Method": "PutAsync",
+    "RelativePath": "analisis1/UserLogin",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "sistema_bancario_post.Data.Entities.Login.USERLOGIN",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sistema_bancario_post.Controllers.UserLoginController",
+    "Method": "DeleteAsync",
+    "RelativePath": "analisis1/UserLogin/{USERID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "USERID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sistema_bancario_post.Controllers.UserLoginController",
+    "Method": "getByUSERID",
+    "RelativePath": "analisis1/UserLogin/getuserbyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "sistema_bancario_post.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

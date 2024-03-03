@@ -22,13 +22,52 @@ public class UserLoginController : ControllerBase
         return Ok(userLoginGet);
     }
 
+    /* [HttpPost]
+     public async Task<IActionResult> PostAsync(USERLOGIN log)
+     {
+         var userLoginPost = await _userLoginTable.Logins.AddAsync(log);
+         await _userLoginTable.SaveChangesAsync();
+         return Ok(userLoginPost.Entity);
+     } */
+
     [HttpPost]
     public async Task<IActionResult> PostAsync(USERLOGIN log)
     {
         var userLoginPost = await _userLoginTable.Logins.AddAsync(log);
         await _userLoginTable.SaveChangesAsync();
-        return Ok(userLoginPost.Entity);
+        return Created($"getuserbyid?id={log.USERID}", log);
     }
 
+    [HttpPut]
+    public async Task<IActionResult> PutAsync(USERLOGIN log)
+    {
+        _userLoginTable.Logins.Update(log);
+        await _userLoginTable.SaveChangesAsync();
+        return NoContent();
+    }
+
+    [Route("{USERID}")]
+    [HttpDelete]
+    public async Task<IActionResult> DeleteAsync(int USERID)
+    {
+        var userLoginDelete = await _userLoginTable.Logins.FindAsync(USERID);
+        if (userLoginDelete == null)
+        {
+            return NotFound();
+        }
+
+        _userLoginTable.Logins.Remove(userLoginDelete);
+        await _userLoginTable.SaveChangesAsync();
+        return NoContent();
+    }
+
+    [Route("getuserbyid")]
+    [HttpGet]
+    public async Task<IActionResult> getByUSERID(int userid)
+    {
+        var usergetByUSERID = await _userLoginTable.Logins.FindAsync(userid);
+        return Ok(usergetByUSERID);
+    }
+   
 }
 

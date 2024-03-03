@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sistema-bancario-post")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2fa35ed8fa01dc27264fc81b977d0945ed7cd8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a8cd26fe96b786d8af073bee696f69788504080")]
 [assembly: System.Reflection.AssemblyProductAttribute("sistema-bancario-post")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sistema-bancario-post")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
