@@ -1,0 +1,146 @@
+<<<<<<< HEAD:sistema-bancario-post/sistema-bancario-post/obj/Debug/net8.0/ApiEndpoints.json
+[
+  {
+    "ContainingType": "sistema_bancario_post.Controllers.UserLoginController",
+    "Method": "GetAsync",
+    "RelativePath": "analisis1/UserLogin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sistema_bancario_post.Controllers.UserLoginController",
+    "Method": "PostAsync",
+    "RelativePath": "analisis1/UserLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "sistema_bancario_post.Data.Entities.Login.USERLOGIN",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sistema_bancario_post.Controllers.UserLoginController",
+    "Method": "PutAsync",
+    "RelativePath": "analisis1/UserLogin",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "sistema_bancario_post.Data.Entities.Login.USERLOGIN",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sistema_bancario_post.Controllers.UserLoginController",
+    "Method": "DeleteAsync",
+    "RelativePath": "analisis1/UserLogin/{USERID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "USERID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sistema_bancario_post.Controllers.UserLoginController",
+    "Method": "getByUSERID",
+    "RelativePath": "analisis1/UserLogin/getuserbyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sistema_bancario_post.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[sistema_bancario_post.WeatherForecast, sistema-bancario-post, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+=======
+[
+  {
+    "ContainingType": "sistema_bancario_post.Controllers.UserLoginController",
+    "Method": "GetAsync",
+    "RelativePath": "analisis1/UserLogin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sistema_bancario_post.Controllers.UserLoginController",
+    "Method": "PostAsync",
+    "RelativePath": "analisis1/UserLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "sistema_bancario_post.Data.Entities.Login.USERLOGIN",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sistema_bancario_post.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[sistema_bancario_post.WeatherForecast, sistema-bancario-post, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+>>>>>>> 5eccc866c893a92c64927251d7c053b53752e278:Team/sistema-bancario-post/sistema-bancario-post/obj/Debug/net8.0/ApiEndpoints.json
+]
