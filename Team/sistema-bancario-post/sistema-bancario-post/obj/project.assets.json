@@ -1659,11 +1659,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luisu\\Documents\\Analisis\\proyecto-analisis\\sistema-bancario-post\\sistema-bancario-post\\sistema-bancario-post.csproj",
+      "projectUniqueName": "C:\\Users\\luisu\\Documents\\proyecto-analisis\\Team\\sistema-bancario-post\\sistema-bancario-post\\sistema-bancario-post.csproj",
       "projectName": "sistema-bancario-post",
-      "projectPath": "C:\\Users\\luisu\\Documents\\Analisis\\proyecto-analisis\\sistema-bancario-post\\sistema-bancario-post\\sistema-bancario-post.csproj",
+      "projectPath": "C:\\Users\\luisu\\Documents\\proyecto-analisis\\Team\\sistema-bancario-post\\sistema-bancario-post\\sistema-bancario-post.csproj",
       "packagesPath": "C:\\Users\\luisu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luisu\\Documents\\Analisis\\proyecto-analisis\\sistema-bancario-post\\sistema-bancario-post\\obj\\",
+      "outputPath": "C:\\Users\\luisu\\Documents\\proyecto-analisis\\Team\\sistema-bancario-post\\sistema-bancario-post\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luisu\\AppData\\Roaming\\NuGet\\NuGet.Config",

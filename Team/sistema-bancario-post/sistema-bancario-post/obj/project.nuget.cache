@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EVwE3gaODVg7CcHQtbjWo/G5KzBS9y8azGqFoeC8FAyYuME5TEtSCloBHNcYEj0CApqvG4bP1HAzSmrYAo8RfQ==",
+  "dgSpecHash": "EVnf3831ZPT7hURZqkHgaGDsCTeY84aNvvM1FU7SP7ye6EIAkEHqgup8FeJpTKkoeRpMbadWFexpAoaqiNkeTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luisu\\Documents\\Analisis\\proyecto-analisis\\sistema-bancario-post\\sistema-bancario-post\\sistema-bancario-post.csproj",
+  "projectFilePath": "C:\\Users\\luisu\\Documents\\proyecto-analisis\\Team\\sistema-bancario-post\\sistema-bancario-post\\sistema-bancario-post.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luisu\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.2\\microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
     "C:\\Users\\luisu\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.2\\microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",

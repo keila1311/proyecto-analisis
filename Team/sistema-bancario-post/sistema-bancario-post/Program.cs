@@ -1,4 +1,4 @@
-    using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using sistema_bancario_post.Data;
 
 var builder = WebApplication.CreateBuilder(args);
