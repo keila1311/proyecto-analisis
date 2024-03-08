@@ -1,11 +1,18 @@
 import { useState, useEffect } from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
-import Login from './components/Login'
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Login from "./components/Login";
 import Home from "./components/Home";
-import NavBar from "./components/NavBar";
+import NavBarWrapper from './components/NavBarWrapper';
+import Users from "./components/Users/Users";
 
-export default function App() {
+const App = () => {
   const [isLoggedIn, setLoggedIn] = useState(false);
 
   // Verificar la sesión al cargar la aplicación
@@ -32,16 +39,48 @@ export default function App() {
   };
 
   return (
-    <div>
-      {isLoggedIn ? (
-        <>
-          <NavBar onLogout={handleLogout} />
-          <Home />
-        </>
-        
-      ) : (
-        <Login onLogin={handleLogin} />
-      )}
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route
+            path="/login"
+            element={
+              isLoggedIn ? (
+                <Navigate to="/home" />
+              ) : (
+                <Login onLogin={handleLogin} />
+              )
+            }
+          />
+          <Route
+            path="/home/*"
+            element={
+              isLoggedIn ? (
+                <NavBarWrapper onLogout={handleLogout}>
+                  <Home />
+                </NavBarWrapper>
+              ) : (
+                <Navigate to="/login" />
+              )
+            }
+          />
+          <Route
+            path="/users/*"
+            element={
+              isLoggedIn ? (
+                <NavBarWrapper onLogout={handleLogout}>
+                  <Users />
+                </NavBarWrapper>
+              ) : (
+                <Navigate to="/login" />
+              )
+            }
+          />
+          <Route path="/" element={<Navigate to={isLoggedIn ? "/home" : "/login"} />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
+
+export default App;
