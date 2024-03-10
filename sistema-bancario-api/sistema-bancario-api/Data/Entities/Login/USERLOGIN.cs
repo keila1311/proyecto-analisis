@@ -6,6 +6,7 @@ namespace sistema_bancario_post.Data.Entities.Login
     [Table("USERLOGIN")]
     public class USERLOGIN
     {
+        //Modelos de datos
         [Key]
         public int USERID { get; set; }
         public string? NICKNAME { get; set; }

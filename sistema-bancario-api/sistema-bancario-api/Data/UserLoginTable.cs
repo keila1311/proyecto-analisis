@@ -6,6 +6,7 @@ using sistema_bancario_post.Data.Entities.Login;
 
 public class UserLoginTable : DbContext
 {
+    //Modelos de la base de datos
     public UserLoginTable(DbContextOptions<UserLoginTable> context) : base(context)
     {
 

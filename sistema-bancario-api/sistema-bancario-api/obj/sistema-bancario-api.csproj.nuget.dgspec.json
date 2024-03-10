@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/williamcuc/Developer/UMG/proyecto-analisis/sistema-bancario-api/sistema-bancario-api/sistema-bancario-api.csproj": {}
+    "C:\\Users\\luisu\\Documents\\proyecto-analisis\\sistema-bancario-api\\sistema-bancario-api\\sistema-bancario-api.csproj": {}
   },
   "projects": {
-    "/Users/williamcuc/Developer/UMG/proyecto-analisis/sistema-bancario-api/sistema-bancario-api/sistema-bancario-api.csproj": {
+    "C:\\Users\\luisu\\Documents\\proyecto-analisis\\sistema-bancario-api\\sistema-bancario-api\\sistema-bancario-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/williamcuc/Developer/UMG/proyecto-analisis/sistema-bancario-api/sistema-bancario-api/sistema-bancario-api.csproj",
+        "projectUniqueName": "C:\\Users\\luisu\\Documents\\proyecto-analisis\\sistema-bancario-api\\sistema-bancario-api\\sistema-bancario-api.csproj",
         "projectName": "sistema-bancario-api",
-        "projectPath": "/Users/williamcuc/Developer/UMG/proyecto-analisis/sistema-bancario-api/sistema-bancario-api/sistema-bancario-api.csproj",
-        "packagesPath": "/Users/williamcuc/.nuget/packages/",
-        "outputPath": "/Users/williamcuc/Developer/UMG/proyecto-analisis/sistema-bancario-api/sistema-bancario-api/obj/",
+        "projectPath": "C:\\Users\\luisu\\Documents\\proyecto-analisis\\sistema-bancario-api\\sistema-bancario-api\\sistema-bancario-api.csproj",
+        "packagesPath": "C:\\Users\\luisu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luisu\\Documents\\proyecto-analisis\\sistema-bancario-api\\sistema-bancario-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/williamcuc/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\luisu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -74,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
