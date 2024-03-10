@@ -1828,4 +1828,6 @@ $RECYCLE.BIN/
 *.lnk
 
 sistema-bancario-api/obj/
+sistema-bancario-api/sistema-bancario-api/obj/
+./sistema-bancario-api/sistema-bancario-api/obj/
 .DS_Store
