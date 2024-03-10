@@ -1827,11 +1827,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-sistema-bancario-api/sistema-bancario-api/obj/Debug/net7.0/sistema-bancario-api.AssemblyInfoInputs.cache
-sistema-bancario-api/sistema-bancario-api/obj/Debug/net7.0/sistema-bancario-api.GeneratedMSBuildEditorConfig.editorconfig
-sistema-bancario-api/sistema-bancario-api/obj/Debug/net7.0/sistema-bancario-api.assets.cache
-sistema-bancario-api/sistema-bancario-api/obj/Debug/net7.0/sistema-bancario-api.csproj.AssemblyReference.cache
-sistema-bancario-api/sistema-bancario-api/obj/project.assets.json
-sistema-bancario-api/sistema-bancario-api/obj/project.nuget.cache
-sistema-bancario-api/sistema-bancario-api/obj/sistema-bancario-api.csproj.nuget.dgspec.json
-sistema-bancario-api/sistema-bancario-api/obj/sistema-bancario-api.csproj.nuget.g.props
+sistema-bancario-api/obj/
