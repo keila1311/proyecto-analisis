@@ -4,6 +4,7 @@ using sistema_bancario_post.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+//Service container
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
