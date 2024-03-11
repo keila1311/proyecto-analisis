@@ -1827,8 +1827,14 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+<<<<<<< HEAD
 #.NET Personal Files
 bin
 obj
 packages
+=======
+sistema-bancario-api/obj/
+sistema-bancario-api/sistema-bancario-api/obj/
+./sistema-bancario-api/sistema-bancario-api/obj/
+>>>>>>> bd2f7c609e74a7291470ca3b23a2591859f9a61b
 .DS_Store
