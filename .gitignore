@@ -1834,7 +1834,6 @@ obj
 packages
 .DS_Store
 Properties
-sistema-bancario-api.csproj
 xs
 bin/
 Debug
