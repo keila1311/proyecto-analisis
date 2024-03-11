@@ -1829,9 +1829,11 @@ $RECYCLE.BIN/
 
 #.NET Personal Files
 bin
+.bin
 obj
 packages
 .DS_Store
 Properties
 sistema-bancario-api.csproj
 xs
+bin/
