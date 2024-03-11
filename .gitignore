@@ -1837,3 +1837,5 @@ Properties
 sistema-bancario-api.csproj
 xs
 bin/
+Debug
+Debug/
