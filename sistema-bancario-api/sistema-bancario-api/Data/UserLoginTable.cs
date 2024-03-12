@@ -19,5 +19,7 @@ public class UserLoginTable : DbContext
 
     public DbSet<USERLOGIN> Logins { get; set; }
 
+    //Entity cheks for problems
+
 }
 

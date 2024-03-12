@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\luisu\\Documents\\proyecto-analisis\\sistema-bancario-api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B206C2-88F6-4816-AEE6-D4BE56B66A60}|sistema-bancario-api\\sistema-bancario-api.csproj|c:\\users\\luisu\\documents\\proyecto-analisis\\sistema-bancario-api\\sistema-bancario-api\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B206C2-88F6-4816-AEE6-D4BE56B66A60}|sistema-bancario-api\\sistema-bancario-api.csproj|solutionrelative:sistema-bancario-api\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7B206C2-88F6-4816-AEE6-D4BE56B66A60}|sistema-bancario-api\\sistema-bancario-api.csproj|c:\\users\\luisu\\documents\\proyecto-analisis\\sistema-bancario-api\\sistema-bancario-api\\data\\userlogintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7B206C2-88F6-4816-AEE6-D4BE56B66A60}|sistema-bancario-api\\sistema-bancario-api.csproj|solutionrelative:sistema-bancario-api\\data\\userlogintable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserLoginController.cs",
+              "DocumentMoniker": "C:\\Users\\luisu\\Documents\\proyecto-analisis\\sistema-bancario-api\\sistema-bancario-api\\Controllers\\UserLoginController.cs",
+              "RelativeDocumentMoniker": "sistema-bancario-api\\Controllers\\UserLoginController.cs",
+              "ToolTip": "C:\\Users\\luisu\\Documents\\proyecto-analisis\\sistema-bancario-api\\sistema-bancario-api\\Controllers\\UserLoginController.cs",
+              "RelativeToolTip": "sistema-bancario-api\\Controllers\\UserLoginController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwEcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T04:15:17.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserLoginTable.cs",
+              "DocumentMoniker": "C:\\Users\\luisu\\Documents\\proyecto-analisis\\sistema-bancario-api\\sistema-bancario-api\\Data\\UserLoginTable.cs",
+              "RelativeDocumentMoniker": "sistema-bancario-api\\Data\\UserLoginTable.cs",
+              "ToolTip": "C:\\Users\\luisu\\Documents\\proyecto-analisis\\sistema-bancario-api\\sistema-bancario-api\\Data\\UserLoginTable.cs",
+              "RelativeToolTip": "sistema-bancario-api\\Data\\UserLoginTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T04:15:05.865Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
