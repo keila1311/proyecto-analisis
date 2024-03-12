@@ -1833,7 +1833,6 @@ bin
 obj
 packages
 .DS_Store
-Properties
 xs
 bin/
 Debug
