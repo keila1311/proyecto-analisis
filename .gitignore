@@ -1837,4 +1837,5 @@ xs
 bin/
 Debug
 Debug/
-.VS
+.VS/
+.vs/
