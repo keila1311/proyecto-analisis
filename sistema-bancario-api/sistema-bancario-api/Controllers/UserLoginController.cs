@@ -30,13 +30,7 @@ public class UserLoginController : ControllerBase
         return Ok(userLoginPost.Entity);
     }
 
-    /*[HttpPost]
-    public async Task<IActionResult> PostAsync(USERLOGIN log)
-    {
-        var userLoginPost = await _userLoginTable.Logins.AddAsync(log);
-        await _userLoginTable.SaveChangesAsync();
-        return Created($"getuserbyid?id={log.USERID}", log);
-    }*/
+ 
 
     [HttpPut]
     public async Task<IActionResult> PutAsync(USERLOGIN log)
@@ -69,7 +63,6 @@ public class UserLoginController : ControllerBase
         return Ok(usergetByUSERID);
     }
 
-    //No need for problems
 
 }
 
